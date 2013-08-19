@@ -5,7 +5,7 @@ import cv2
 
 import goPro
 
-goPro.password = "syphilis"
+goPro.password = "goprohero"
 
 # Creates an OpenCV windows displaying the current stream.
 # This is for test purpose because it will keep hold of the command line.

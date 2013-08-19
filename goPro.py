@@ -5,7 +5,7 @@
 #####################################################
 """
 Additional notes:
-This software is in now way affiliated with the company Woodman Labs inc.
+This software is in now way affiliated with the company Woodman Labs inc. (which manufactures these really nice tiny cameras)
 This software was designed for the Hero3 Black edition camera, on Python 2.7.
 
 THIS SOFTWARE MAY BREAK YOUR CAMERA, SD CARD, AND/OR BATTERY.
