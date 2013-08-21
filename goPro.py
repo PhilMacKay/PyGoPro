@@ -16,8 +16,8 @@ If you like this software, please share and/or upgrade it!
 """
 
 from urllib2 import urlopen
-import scipy as sp
-import cv2
+#import scipy as sp
+#import cv2
 from time import sleep
 
 # Global variable. I know... I'm a bad programmer.
@@ -49,7 +49,11 @@ def beep():
 
 def powerOn():
     # Turns on the camera (doesn't work on mine)
-    send("PW","01")
+    #send("PW","01")
+    try:
+        urlopen("http://10.5.5.9/bacpac/PW?t="+password+"&p=%01", timeout=1)
+    except:
+        pass
 
 def powerOff():
     send("PW","00")
